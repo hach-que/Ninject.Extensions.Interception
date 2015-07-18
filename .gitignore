@@ -10,3 +10,6 @@ build
 *.dotCover
 /lib/Ninject/*.zip
 /lib/Ninject/*/**
+*.csproj
+*.sln
+*.speccache

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModuleInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Path>/home/june/Projects/Ninject.Extensions.Interception</Path>
+  <Name>Ninject.Extensions.Interception</Name>
+  <DefaultAction>resync</DefaultAction>
+  <GenerateNuGetRepositories>true</GenerateNuGetRepositories>
+  <DisableSynchronisation xsi:nil="true" />
+  <ModuleAssemblies />
+  <Packages>
+    <PackageRef>
+      <Uri>http://protobuild.org/hach-que/Ninject</Uri>
+      <GitRef>master</GitRef>
+      <Folder>Ninject</Folder>
+    </PackageRef>
+    <PackageRef>
+      <Uri>https-nuget://nuget.org/api/v2/|Castle.Core</Uri>
+      <GitRef>3.2.0</GitRef>
+      <Folder>Castle.Core</Folder>
+    </PackageRef>
+  </Packages>
+</ModuleInfo>
