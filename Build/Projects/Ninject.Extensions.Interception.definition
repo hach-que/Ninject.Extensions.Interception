@@ -5,6 +5,11 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
   </References>
+  <Properties>
+    <CustomDefinitions>
+      <Platform Name="Android">TRACE;NO_LCG</Platform>
+    </CustomDefinitions>
+  </Properties>
   <Files>
     <Compile Include="..\SharedAssemblyInfo.cs">
       <Link>Properties\SharedAssemblyInfo.cs</Link>
