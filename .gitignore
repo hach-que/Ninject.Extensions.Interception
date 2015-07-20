@@ -13,3 +13,4 @@ build
 *.csproj
 *.sln
 *.speccache
+*.userprefs
